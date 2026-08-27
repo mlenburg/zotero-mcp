@@ -1083,7 +1083,7 @@ export class StreamableMCPServer {
             },
             libraryID: {
               type: 'number',
-              description: 'Zotero library ID to look up item keys. Defaults to the personal library. Use list_libraries to find group library IDs.'
+              description: 'Zotero library ID to look up item keys. Defaults to the personal library. Use get_libraries to find group library IDs.'
             },
             overwrite: {
               type: 'boolean',
